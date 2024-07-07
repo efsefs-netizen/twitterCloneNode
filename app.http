@@ -30,3 +30,32 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZ
 //api5
 GET http://localhost:3000/user/followers/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+
+//api6
+GET http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+
+//api7
+GET http://localhost:3000/tweets/4/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+
+//api8
+GET http://localhost:3000/tweets/4/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+
+//api9
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+
+//api10
+POST http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
+Content-Type: Application/json
+
+{
+   "tweet": "The Mornings..."
+}
+
+//api11
+DELETE http://localhost:3000/tweets/7/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzIwMzI0MzY2fQ.EVGutGaDPR3pYA5tjK4lEPVh1TPkw24eL6dozWJcbtc
